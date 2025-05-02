@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VILA Windows</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f8fc;
+      color: #333;
+    }
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .logo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .logo img {
+      max-width: 150px;
+      margin-bottom: 10px;
+    }
+    nav {
+      background: #0055a5;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 30px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .services, .gallery, .contact {
+      margin-top: 40px;
+    }
+    .gallery img {
+      width: 100%;
+      max-width: 300px;
+      margin: 10px;
+      border: 2px solid #ccc;
+      border-radius: 8px;
+    }
+    form {
+      background-color: #e0eaf7;
+      padding: 20px;
+      border-radius: 8px;
+    }
+    form input, form textarea, form button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    footer {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="A_logo_for_a_company_named_VILA,_established_in_20.png" alt="VILA Logo" />
+      <p>One stop shop for your windows</p>
+    </div>
+  </header>
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="services" id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Windows – Low to High-End Brands</li>
+      <li>Professional Installation</li>
+      <li>Window Replacement</li>
+    </ul>
+    <p>We proudly serve the entire Chicagoland area.</p>
+  </section>
+
+  <section class="gallery" id="gallery">
+    <h2>Before & After Gallery</h2>
+    <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+      <img src="https://via.placeholder.com/300x200?text=Before+1" alt="Before 1">
+      <img src="https://via.placeholder.com/300x200?text=After+1" alt="After 1">
+      <img src="https://via.placeholder.com/300x200?text=Before+2" alt="Before 2">
+      <img src="https://via.placeholder.com/300x200?text=After+2" alt="After 2">
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Request a Consultation or Quote</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <input type="tel" placeholder="Your Phone Number" required>
+      <textarea rows="5" placeholder="Tell us about your project..."></textarea>
+      <button type="submit">Send Request</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 VILA Windows. Serving the Chicagoland Area.</p>
+  </footer>
+</body>
+</html>
